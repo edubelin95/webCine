@@ -87,6 +87,7 @@ h4 {
     color: #ffffff;   
     margin: 0;
     font-size: 10rem;
+    font-family:'Audiowide', cursive;
 
 }
 
@@ -115,7 +116,7 @@ h4 {
 
 .navegacion a:hover {
     color: #da3b57;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     
 }
 
@@ -180,8 +181,7 @@ h4 {
 }
 .boton-azul{
     max-width: 20rem;
-    text-align: center;
-    background-position: center center;
+   
     background-color: #1adcbd;
 }
 
