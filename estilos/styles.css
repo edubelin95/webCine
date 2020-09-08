@@ -69,7 +69,7 @@ h4 {
 .barra {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: inicial;
     padding-top: 2.5rem;
 }
 
@@ -93,7 +93,7 @@ h4 {
     margin: 0;
     font-size: 10rem;
     font-family:'Audiowide', cursive;
-
+    /**Hola Eddie**/
 }
 
 
@@ -232,6 +232,6 @@ h4 {
 }
 
 .copyright{
-    margin: 0.5;
+    margin: 0;
     font-family:'Audiowide', cursive;
 }
