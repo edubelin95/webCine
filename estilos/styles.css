@@ -72,6 +72,13 @@ p{
     padding-top: 2.5rem;
 }
 
+.barra-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    padding-top: 2.5rem;
+}
+
 .contenido-header {
     height: 100%;
     display: flex;
@@ -92,8 +99,8 @@ p{
 .titulo2 {
     color: #da3b57;
     margin-left: 1rem;
-    text-shadow: 0.2rem 0.2rem 0rem #1adcbd;
-    text-shadow: 0.2rem 0.2rem 1rem #da3b57;
+    text-shadow: 0.2rem 0.2rem 0rem black;
+    
 }
 
 
@@ -102,9 +109,6 @@ p{
     display: inline-block;
       
     text-shadow: 0.5rem 0.5rem 0.7rem #1adcbd;   
-    transition: 1s;
-
-
 
     color: #ffffff;
     margin: 0;
@@ -119,10 +123,7 @@ p{
  **/
 }
 
-.enlace-index h1:hover {
-    transform: scale(1.1);
 
-}
 
 
 
@@ -383,17 +384,17 @@ p{
 
 .Entradas a h4{
     margin:0;
-    color: blue;
-    text-shadow: 0.2rem 0.2rem 0.4rem #da3b57; 
+    color: #da3b57;
+    text-shadow: 0.2rem 0.2rem 0rem black;
     
-    transition: 0.5s;
+    
    
     
 }
 
 .Entradas a h4:hover{
-    color: #1adcbd;
-    transform: scale(1.05);
+    color:blue;
+  
  }
 
 
@@ -402,8 +403,9 @@ p{
     display: block;
     width: calc(100% - 0rem);
     height: 0.5rem;
-    background-color: #da3b57;
+    background-color: gray;
     margin-top: 0rem;
+    border-radius: 3rem;
  }
 
  .texto-entrada span{
