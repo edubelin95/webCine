@@ -385,16 +385,11 @@ p{
 .Entradas a h4{
     margin:0;
     color: #da3b57;
-    text-shadow: 0.2rem 0.2rem 0rem black;
-    
-    
-   
-    
+    text-shadow: 0.2rem 0.2rem 0rem black;    
 }
 
 .Entradas a h4:hover{
-    color:blue;
-  
+    color:blue;  
  }
 
 
