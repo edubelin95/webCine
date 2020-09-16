@@ -97,11 +97,35 @@ p{
 .titulo2 {
     color: #da3b57;
     margin-left: 1rem;
+    text-shadow: 0.2rem 0.2rem 0rem #1adcbd;
+    text-shadow: 0.2rem 0.2rem 1rem #da3b57;
 }
 
-.enlace-titulo {
+.enlace-index {
     text-decoration: none;
+    display: inline-block;
 }
+
+.enlace-index h1 {
+    
+      
+    text-shadow: 0.5rem 0.5rem 0.7rem #1adcbd;   
+    transition: 1s;
+/**
+    box-shadow: .2rem .5rem 3rem 1rem #da3b57;
+    border: 0.5rem double;
+    border-radius: 10rem;
+    padding: 2rem; 
+ **/
+}
+
+.enlace-index h1:hover {
+    transform: scale(1.1);
+
+}
+
+
+
 
 .navegacion a {
     display: inline-block;
@@ -121,6 +145,7 @@ p{
 .navegacion a:hover {
     color: #da3b57;
     transform: scale(1.5);
+    text-shadow: 0.1rem 0.1rem 0.2rem #1adcbd;
 }
 
 
@@ -141,6 +166,12 @@ p{
     box-shadow: .2rem .5rem 5rem .2rem #da3b57;
     background-color: #1a95dc;
     margin-bottom: 2rem;
+    
+    transition: 0.5s;
+}
+
+.secContenido:hover {
+    transform: scale(1.05);
 }
 
 .secContenido img {
@@ -167,6 +198,12 @@ p{
 .contenido-secContenido p {
     margin: 0.3rem;
     font-family: 'Audiowide', cursive;
+   
+}
+
+.contenido-secContenido h3
+ {
+    text-shadow: 0.2rem 0.2rem 0.4rem #da3b57; 
 }
 
 .contenido-secContenido a {
@@ -198,6 +235,7 @@ p{
 .boton-morado:hover {
     border: 0.4rem double #1adcbd;
     box-shadow: .2rem .5rem 5rem .2rem #1adcbd;
+    text-shadow: 0.1rem 0.1em 0.5rem white;
   
    
 }
