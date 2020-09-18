@@ -45,9 +45,29 @@ h4 {
     font-family: 'Audiowide', cursive;
 }
 
-p{
+p {
     font-family: 'Kufam', cursive;
 }
+
+
+
+
+/**Utilidades **/
+/**
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.centrar-texto{
+    text-align: center;    
+}
+
+.contenido-centrado{
+    max-width: 80rem;
+}
+
+**/
 
 /** Header **/
 
@@ -58,8 +78,8 @@ p{
 
 .site-header,
 .inicio {
-    background-image: url("../imagenes/cyberpunk_4.jpeg");
-    background-position: center center;
+    background-image: url("../imagenes/fondogif3");
+    background-position: center right;
     background-size: cover;
     height: 100vh;
     min-height: 60rem;
@@ -94,28 +114,21 @@ p{
     font-size: 4rem;
 }
 
-
-
 .titulo2 {
     color: #da3b57;
     margin-left: 1rem;
     text-shadow: 0.2rem 0.2rem 0rem black;
-    
 }
-
 
 .enlace-index h1 {
     text-decoration: none;
     display: inline-block;
-      
-    text-shadow: 0.5rem 0.5rem 0.7rem #1adcbd;   
-
+    text-shadow: 0.5rem 0.5rem 0.7rem #1adcbd;
     color: #ffffff;
     margin: 0;
     font-size: 10rem;
     font-family: 'Audiowide', cursive;
-
-/**
+    /**
     box-shadow: .2rem .5rem 3rem 1rem #da3b57;
     border: 0.5rem double;
     border-radius: 10rem;
@@ -123,43 +136,24 @@ p{
  **/
 }
 
-
-
-
-
-
 .enlace-index-barra {
     text-decoration: none;
     display: inline-block;
-      
-    text-shadow: 0.5rem 0.5rem 0.7rem #1adcbd;   
+    text-shadow: 0.5rem 0.5rem 0.7rem #1adcbd;
     transition: 1s;
-
     color: #ffffff;
     margin: 0;
     font-size: 2.5rem;
     font-family: 'Audiowide', cursive;
-
-
-
     box-shadow: .2rem .5rem 3rem 1rem #da3b57;
     border: 0.5rem double;
     border-radius: 10rem;
-    padding: 2rem; 
-
-
+    padding: 2rem;
 }
-
 
 .enlace-index-barra:hover {
     transform: scale(1.2);
-
 }
-
-
-
-
-
 
 .navegacion a {
     display: inline-block;
@@ -200,7 +194,6 @@ p{
     box-shadow: .2rem .5rem 5rem .2rem #da3b57;
     background-color: #1a95dc;
     margin-bottom: 2rem;
-    
     transition: 0.5s;
 }
 
@@ -232,12 +225,10 @@ p{
 .contenido-secContenido p {
     margin: 0.3rem;
     font-family: 'Audiowide', cursive;
-   
 }
 
-.contenido-secContenido h3
- {
-    text-shadow: 0.2rem 0.2rem 0.4rem #da3b57; 
+.contenido-secContenido h3 {
+    text-shadow: 0.2rem 0.2rem 0.4rem #da3b57;
 }
 
 .contenido-secContenido a {
@@ -266,41 +257,26 @@ p{
     border: 0.4rem double rgb(78, 75, 75);
 }
 
-.boton-morado:hover {
-    border: 0.4rem double #1adcbd;
-    box-shadow: .2rem .5rem 5rem .2rem #1adcbd;
-    text-shadow: 0.1rem 0.1em 0.5rem white;
-  
-   
-}
-
 .boton-morado {
     background-color: #da3b57;
 }
 
-.boton-azul {
-    max-width: 20rem;
-    width: 15rem;
-    background-color: #1adcbd;
-}
-
-.boton-azul:hover {
-    border: 0.4rem double #da3b57;
-}
-
-.contenido-secContenido a:hover {
+.boton-morado:hover {
+    border: 0.4rem double #1adcbd;
+    box-shadow: .2rem .5rem 5rem .2rem #1adcbd;
+    text-shadow: 0.1rem 0.1em 0.5rem white;
     color: #07f8e4;
 }
 
-.contenido-novedad a:hover {
-    color: #da3b57;
+.contenedor-boton-morado {
+    width: 22rem;
 }
 
 
 /**NOVEDAD**/
 
 .novedad {
-    background-color:white;
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0rem;
@@ -313,13 +289,14 @@ p{
     align-items: center;
 }
 
+.div-imagen-novedad {
+    padding: 4rem;
+}
 
-.div-imagen-novedad{
-    padding: 4rem;    
+.div-imagen-novedad img {
+    border-radius: 3rem;
 }
-.div-imagen-novedad img{
-   border-radius: 3rem;   
-}
+
 
 /**Footer**/
 
@@ -340,41 +317,41 @@ p{
 }
 
 
-
 /** PAGINAS INTERNAS**/
-/**NOSOTROS**/
-.imagen.nosotros{
-    max-width: 100%;
 
+
+/**NOSOTROS**/
+
+.imagen.nosotros {
+    max-width: 100%;
 }
 
 
 /**ENTRADAS**/
 
-
-
-.contenido-entrada{
+.contenido-entrada {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
-.contenido-entrada:last-of-type{
+
+.contenido-entrada:last-of-type {
     margin-bottom: 3rem;
 }
-.contenido-entrada .imagen{
+
+.contenido-entrada .imagen {
     flex-basis: 25%;
     
 }
-.contenido-entrada .imagen img{
+
+.contenido-entrada .imagen img {
     border-radius: 4rem;
     max-height: 40rem;
     max-width: 30rem;
     padding: 2rem;
-    
 }
 
-
-.contenido-entrada .texto-entrada{
+.contenido-entrada .texto-entrada {
     flex-basis: calc(75% - 1rem);
 }
 
@@ -382,18 +359,17 @@ p{
     text-decoration: none;
 }
 
-.Entradas a h4{
-    margin:0;
+.Entradas a h4 {
+    margin: 0;
     color: #da3b57;
-    text-shadow: 0.2rem 0.2rem 0rem black;    
+    text-shadow: 0.2rem 0.2rem 0rem black;
 }
 
-.Entradas a h4:hover{
-    color:blue;  
- }
+.Entradas a h4:hover {
+    color: blue;
+}
 
-
-.Entradas a h4::after{
+.Entradas a h4::after {
     content: '';
     display: block;
     width: calc(100% - 0rem);
@@ -401,10 +377,27 @@ p{
     background-color: gray;
     margin-top: 0rem;
     border-radius: 3rem;
- }
+}
 
- .texto-entrada span{
-    color: blue;
- }
+.texto-entrada span {
+    color: #da3b57;
+    font-weight: bolder;
+}
 
+/**WORKING **/
 
+.texto-working  {
+    color: #da3b57;
+    text-shadow: 0.2rem 0.2rem 0rem black;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-weight: bolder;
+    margin: 0;  
+}
+
+.contenedor-working{
+    height: 50rem;
+    margin-top: 10rem;
+
+}
